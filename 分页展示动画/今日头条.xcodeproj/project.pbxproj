@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		393C65901E2CC3B3004DB424 /* newsType.plist in Resources */ = {isa = PBXBuildFile; fileRef = 393C65871E2CC3B3004DB424 /* newsType.plist */; };
+		393C65911E2CC3B3004DB424 /* YJCollectionSectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393C65881E2CC3B3004DB424 /* YJCollectionSectionHeaderView.swift */; };
+		393C65921E2CC3B3004DB424 /* YJCollectionSectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 393C65891E2CC3B3004DB424 /* YJCollectionSectionHeaderView.xib */; };
+		393C65931E2CC3B3004DB424 /* YJMoreItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393C658A1E2CC3B3004DB424 /* YJMoreItemsView.swift */; };
+		393C65941E2CC3B3004DB424 /* YJMoreItemsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 393C658B1E2CC3B3004DB424 /* YJMoreItemsView.xib */; };
+		393C65951E2CC3B3004DB424 /* YJNewsTypeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393C658C1E2CC3B3004DB424 /* YJNewsTypeCell.swift */; };
+		393C65961E2CC3B3004DB424 /* YJNewsTypeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 393C658D1E2CC3B3004DB424 /* YJNewsTypeCell.xib */; };
+		393C65971E2CC3B3004DB424 /* YJNewsTypeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393C658E1E2CC3B3004DB424 /* YJNewsTypeModel.swift */; };
+		393C65981E2CC3B3004DB424 /* YJNewsTypeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393C658F1E2CC3B3004DB424 /* YJNewsTypeViewModel.swift */; };
+		393C659A1E2CC3ED004DB424 /* YJNewsTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393C65991E2CC3ED004DB424 /* YJNewsTypeViewController.swift */; };
+		398A383F1E289C320051E2D6 /* YJTest1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398A383E1E289C320051E2D6 /* YJTest1ViewController.swift */; };
+		39D0E7701E286DFE000E1318 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D0E76F1E286DFE000E1318 /* AppDelegate.swift */; };
+		39D0E7751E286DFE000E1318 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39D0E7731E286DFE000E1318 /* Main.storyboard */; };
+		39D0E7771E286DFF000E1318 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39D0E7761E286DFF000E1318 /* Assets.xcassets */; };
+		39D0E77A1E286DFF000E1318 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39D0E7781E286DFF000E1318 /* LaunchScreen.storyboard */; };
+		39D0E7851E286DFF000E1318 /* ____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D0E7841E286DFF000E1318 /* ____Tests.swift */; };
+		39D0E7901E286DFF000E1318 /* ____UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D0E78F1E286DFF000E1318 /* ____UITests.swift */; };
+		39D0E79E1E286E3F000E1318 /* YJPageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D0E79D1E286E3F000E1318 /* YJPageTitleView.swift */; };
+		39D0E7A01E286E8F000E1318 /* YJCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D0E79F1E286E8F000E1318 /* YJCommon.swift */; };
+		39D0E7A21E287198000E1318 /* YJHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D0E7A11E287198000E1318 /* YJHomeViewController.swift */; };
+		39D0E7B01E2876B9000E1318 /* YJTest2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D0E7A71E2876B9000E1318 /* YJTest2ViewController.swift */; };
+		39D0E7B11E2876B9000E1318 /* YJTest3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D0E7A81E2876B9000E1318 /* YJTest3ViewController.swift */; };
+		39D0E7B21E2876B9000E1318 /* YJTest4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D0E7A91E2876B9000E1318 /* YJTest4ViewController.swift */; };
+		39D0E7B31E2876B9000E1318 /* YJTest5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D0E7AA1E2876B9000E1318 /* YJTest5ViewController.swift */; };
+		39D0E7B41E2876B9000E1318 /* YJTest6ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D0E7AB1E2876B9000E1318 /* YJTest6ViewController.swift */; };
+		39D0E7B51E2876B9000E1318 /* YJTest7ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D0E7AC1E2876B9000E1318 /* YJTest7ViewController.swift */; };
+		39D0E7B61E2876B9000E1318 /* YJTest8ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D0E7AD1E2876B9000E1318 /* YJTest8ViewController.swift */; };
+		39D0E7B71E2876B9000E1318 /* YJTestBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D0E7AE1E2876B9000E1318 /* YJTestBaseViewController.swift */; };
+		39D0E7B91E287868000E1318 /* YJPageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D0E7B81E287868000E1318 /* YJPageContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		39D0E7811E286DFF000E1318 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39D0E7641E286DFD000E1318 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39D0E76B1E286DFE000E1318;
+			remoteInfo = "今日头条";
+		};
+		39D0E78C1E286DFF000E1318 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39D0E7641E286DFD000E1318 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39D0E76B1E286DFE000E1318;
+			remoteInfo = "今日头条";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		393C65871E2CC3B3004DB424 /* newsType.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = newsType.plist; sourceTree = "<group>"; };
+		393C65881E2CC3B3004DB424 /* YJCollectionSectionHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJCollectionSectionHeaderView.swift; sourceTree = "<group>"; };
+		393C65891E2CC3B3004DB424 /* YJCollectionSectionHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YJCollectionSectionHeaderView.xib; sourceTree = "<group>"; };
+		393C658A1E2CC3B3004DB424 /* YJMoreItemsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJMoreItemsView.swift; sourceTree = "<group>"; };
+		393C658B1E2CC3B3004DB424 /* YJMoreItemsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YJMoreItemsView.xib; sourceTree = "<group>"; };
+		393C658C1E2CC3B3004DB424 /* YJNewsTypeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJNewsTypeCell.swift; sourceTree = "<group>"; };
+		393C658D1E2CC3B3004DB424 /* YJNewsTypeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YJNewsTypeCell.xib; sourceTree = "<group>"; };
+		393C658E1E2CC3B3004DB424 /* YJNewsTypeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJNewsTypeModel.swift; sourceTree = "<group>"; };
+		393C658F1E2CC3B3004DB424 /* YJNewsTypeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJNewsTypeViewModel.swift; sourceTree = "<group>"; };
+		393C65991E2CC3ED004DB424 /* YJNewsTypeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJNewsTypeViewController.swift; sourceTree = "<group>"; };
+		398A383E1E289C320051E2D6 /* YJTest1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJTest1ViewController.swift; sourceTree = "<group>"; };
+		39D0E76C1E286DFE000E1318 /* 今日头条.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "今日头条.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39D0E76F1E286DFE000E1318 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		39D0E7741E286DFE000E1318 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		39D0E7761E286DFF000E1318 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		39D0E7791E286DFF000E1318 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		39D0E77B1E286DFF000E1318 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39D0E7801E286DFF000E1318 /* 今日头条Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "今日头条Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39D0E7841E286DFF000E1318 /* ____Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "____Tests.swift"; sourceTree = "<group>"; };
+		39D0E7861E286DFF000E1318 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39D0E78B1E286DFF000E1318 /* 今日头条UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "今日头条UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39D0E78F1E286DFF000E1318 /* ____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "____UITests.swift"; sourceTree = "<group>"; };
+		39D0E7911E286DFF000E1318 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39D0E79D1E286E3F000E1318 /* YJPageTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJPageTitleView.swift; sourceTree = "<group>"; };
+		39D0E79F1E286E8F000E1318 /* YJCommon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJCommon.swift; sourceTree = "<group>"; };
+		39D0E7A11E287198000E1318 /* YJHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJHomeViewController.swift; sourceTree = "<group>"; };
+		39D0E7A71E2876B9000E1318 /* YJTest2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJTest2ViewController.swift; sourceTree = "<group>"; };
+		39D0E7A81E2876B9000E1318 /* YJTest3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJTest3ViewController.swift; sourceTree = "<group>"; };
+		39D0E7A91E2876B9000E1318 /* YJTest4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJTest4ViewController.swift; sourceTree = "<group>"; };
+		39D0E7AA1E2876B9000E1318 /* YJTest5ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJTest5ViewController.swift; sourceTree = "<group>"; };
+		39D0E7AB1E2876B9000E1318 /* YJTest6ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJTest6ViewController.swift; sourceTree = "<group>"; };
+		39D0E7AC1E2876B9000E1318 /* YJTest7ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJTest7ViewController.swift; sourceTree = "<group>"; };
+		39D0E7AD1E2876B9000E1318 /* YJTest8ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJTest8ViewController.swift; sourceTree = "<group>"; };
+		39D0E7AE1E2876B9000E1318 /* YJTestBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJTestBaseViewController.swift; sourceTree = "<group>"; };
+		39D0E7B81E287868000E1318 /* YJPageContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YJPageContentView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39D0E7691E286DFE000E1318 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39D0E77D1E286DFF000E1318 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39D0E7881E286DFF000E1318 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		393C65861E2CC3B3004DB424 /* newsType */ = {
+			isa = PBXGroup;
+			children = (
+				393C65871E2CC3B3004DB424 /* newsType.plist */,
+				393C65881E2CC3B3004DB424 /* YJCollectionSectionHeaderView.swift */,
+				393C65891E2CC3B3004DB424 /* YJCollectionSectionHeaderView.xib */,
+				393C658A1E2CC3B3004DB424 /* YJMoreItemsView.swift */,
+				393C658B1E2CC3B3004DB424 /* YJMoreItemsView.xib */,
+				393C658C1E2CC3B3004DB424 /* YJNewsTypeCell.swift */,
+				393C658D1E2CC3B3004DB424 /* YJNewsTypeCell.xib */,
+				393C658E1E2CC3B3004DB424 /* YJNewsTypeModel.swift */,
+				393C658F1E2CC3B3004DB424 /* YJNewsTypeViewModel.swift */,
+				393C65991E2CC3ED004DB424 /* YJNewsTypeViewController.swift */,
+			);
+			path = newsType;
+			sourceTree = "<group>";
+		};
+		39D0E7631E286DFD000E1318 = {
+			isa = PBXGroup;
+			children = (
+				39D0E76E1E286DFE000E1318 /* 今日头条 */,
+				39D0E7831E286DFF000E1318 /* 今日头条Tests */,
+				39D0E78E1E286DFF000E1318 /* 今日头条UITests */,
+				39D0E76D1E286DFE000E1318 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39D0E76D1E286DFE000E1318 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39D0E76C1E286DFE000E1318 /* 今日头条.app */,
+				39D0E7801E286DFF000E1318 /* 今日头条Tests.xctest */,
+				39D0E78B1E286DFF000E1318 /* 今日头条UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39D0E76E1E286DFE000E1318 /* 今日头条 */ = {
+			isa = PBXGroup;
+			children = (
+				39D0E76F1E286DFE000E1318 /* AppDelegate.swift */,
+				39D0E7A11E287198000E1318 /* YJHomeViewController.swift */,
+				39D0E79D1E286E3F000E1318 /* YJPageTitleView.swift */,
+				39D0E7B81E287868000E1318 /* YJPageContentView.swift */,
+				39D0E7731E286DFE000E1318 /* Main.storyboard */,
+				39D0E79F1E286E8F000E1318 /* YJCommon.swift */,
+				393C65861E2CC3B3004DB424 /* newsType */,
+				39D0E7A51E2876B9000E1318 /* ChildVC */,
+				39D0E7761E286DFF000E1318 /* Assets.xcassets */,
+				39D0E7781E286DFF000E1318 /* LaunchScreen.storyboard */,
+				39D0E77B1E286DFF000E1318 /* Info.plist */,
+			);
+			path = "今日头条";
+			sourceTree = "<group>";
+		};
+		39D0E7831E286DFF000E1318 /* 今日头条Tests */ = {
+			isa = PBXGroup;
+			children = (
+				39D0E7841E286DFF000E1318 /* ____Tests.swift */,
+				39D0E7861E286DFF000E1318 /* Info.plist */,
+			);
+			path = "今日头条Tests";
+			sourceTree = "<group>";
+		};
+		39D0E78E1E286DFF000E1318 /* 今日头条UITests */ = {
+			isa = PBXGroup;
+			children = (
+				39D0E78F1E286DFF000E1318 /* ____UITests.swift */,
+				39D0E7911E286DFF000E1318 /* Info.plist */,
+			);
+			path = "今日头条UITests";
+			sourceTree = "<group>";
+		};
+		39D0E7A51E2876B9000E1318 /* ChildVC */ = {
+			isa = PBXGroup;
+			children = (
+				39D0E7AE1E2876B9000E1318 /* YJTestBaseViewController.swift */,
+				398A383E1E289C320051E2D6 /* YJTest1ViewController.swift */,
+				39D0E7A71E2876B9000E1318 /* YJTest2ViewController.swift */,
+				39D0E7A81E2876B9000E1318 /* YJTest3ViewController.swift */,
+				39D0E7A91E2876B9000E1318 /* YJTest4ViewController.swift */,
+				39D0E7AA1E2876B9000E1318 /* YJTest5ViewController.swift */,
+				39D0E7AB1E2876B9000E1318 /* YJTest6ViewController.swift */,
+				39D0E7AC1E2876B9000E1318 /* YJTest7ViewController.swift */,
+				39D0E7AD1E2876B9000E1318 /* YJTest8ViewController.swift */,
+			);
+			path = ChildVC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39D0E76B1E286DFE000E1318 /* 今日头条 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39D0E7941E286DFF000E1318 /* Build configuration list for PBXNativeTarget "今日头条" */;
+			buildPhases = (
+				39D0E7681E286DFE000E1318 /* Sources */,
+				39D0E7691E286DFE000E1318 /* Frameworks */,
+				39D0E76A1E286DFE000E1318 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "今日头条";
+			productName = "今日头条";
+			productReference = 39D0E76C1E286DFE000E1318 /* 今日头条.app */;
+			productType = "com.apple.product-type.application";
+		};
+		39D0E77F1E286DFF000E1318 /* 今日头条Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39D0E7971E286DFF000E1318 /* Build configuration list for PBXNativeTarget "今日头条Tests" */;
+			buildPhases = (
+				39D0E77C1E286DFF000E1318 /* Sources */,
+				39D0E77D1E286DFF000E1318 /* Frameworks */,
+				39D0E77E1E286DFF000E1318 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39D0E7821E286DFF000E1318 /* PBXTargetDependency */,
+			);
+			name = "今日头条Tests";
+			productName = "今日头条Tests";
+			productReference = 39D0E7801E286DFF000E1318 /* 今日头条Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		39D0E78A1E286DFF000E1318 /* 今日头条UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39D0E79A1E286DFF000E1318 /* Build configuration list for PBXNativeTarget "今日头条UITests" */;
+			buildPhases = (
+				39D0E7871E286DFF000E1318 /* Sources */,
+				39D0E7881E286DFF000E1318 /* Frameworks */,
+				39D0E7891E286DFF000E1318 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39D0E78D1E286DFF000E1318 /* PBXTargetDependency */,
+			);
+			name = "今日头条UITests";
+			productName = "今日头条UITests";
+			productReference = 39D0E78B1E286DFF000E1318 /* 今日头条UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39D0E7641E286DFD000E1318 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = 99baozi;
+				TargetAttributes = {
+					39D0E76B1E286DFE000E1318 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Z6LNC4D4SJ;
+						ProvisioningStyle = Automatic;
+					};
+					39D0E77F1E286DFF000E1318 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Z6LNC4D4SJ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 39D0E76B1E286DFE000E1318;
+					};
+					39D0E78A1E286DFF000E1318 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Z6LNC4D4SJ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 39D0E76B1E286DFE000E1318;
+					};
+				};
+			};
+			buildConfigurationList = 39D0E7671E286DFD000E1318 /* Build configuration list for PBXProject "今日头条" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39D0E7631E286DFD000E1318;
+			productRefGroup = 39D0E76D1E286DFE000E1318 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39D0E76B1E286DFE000E1318 /* 今日头条 */,
+				39D0E77F1E286DFF000E1318 /* 今日头条Tests */,
+				39D0E78A1E286DFF000E1318 /* 今日头条UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39D0E76A1E286DFE000E1318 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39D0E77A1E286DFF000E1318 /* LaunchScreen.storyboard in Resources */,
+				393C65941E2CC3B3004DB424 /* YJMoreItemsView.xib in Resources */,
+				39D0E7771E286DFF000E1318 /* Assets.xcassets in Resources */,
+				393C65961E2CC3B3004DB424 /* YJNewsTypeCell.xib in Resources */,
+				39D0E7751E286DFE000E1318 /* Main.storyboard in Resources */,
+				393C65921E2CC3B3004DB424 /* YJCollectionSectionHeaderView.xib in Resources */,
+				393C65901E2CC3B3004DB424 /* newsType.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39D0E77E1E286DFF000E1318 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39D0E7891E286DFF000E1318 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39D0E7681E286DFE000E1318 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39D0E7A01E286E8F000E1318 /* YJCommon.swift in Sources */,
+				39D0E7A21E287198000E1318 /* YJHomeViewController.swift in Sources */,
+				393C659A1E2CC3ED004DB424 /* YJNewsTypeViewController.swift in Sources */,
+				39D0E7B51E2876B9000E1318 /* YJTest7ViewController.swift in Sources */,
+				393C65931E2CC3B3004DB424 /* YJMoreItemsView.swift in Sources */,
+				39D0E7B41E2876B9000E1318 /* YJTest6ViewController.swift in Sources */,
+				39D0E7B61E2876B9000E1318 /* YJTest8ViewController.swift in Sources */,
+				39D0E7B11E2876B9000E1318 /* YJTest3ViewController.swift in Sources */,
+				39D0E7B71E2876B9000E1318 /* YJTestBaseViewController.swift in Sources */,
+				39D0E79E1E286E3F000E1318 /* YJPageTitleView.swift in Sources */,
+				393C65911E2CC3B3004DB424 /* YJCollectionSectionHeaderView.swift in Sources */,
+				39D0E7B21E2876B9000E1318 /* YJTest4ViewController.swift in Sources */,
+				39D0E7701E286DFE000E1318 /* AppDelegate.swift in Sources */,
+				39D0E7B91E287868000E1318 /* YJPageContentView.swift in Sources */,
+				393C65971E2CC3B3004DB424 /* YJNewsTypeModel.swift in Sources */,
+				393C65981E2CC3B3004DB424 /* YJNewsTypeViewModel.swift in Sources */,
+				39D0E7B01E2876B9000E1318 /* YJTest2ViewController.swift in Sources */,
+				398A383F1E289C320051E2D6 /* YJTest1ViewController.swift in Sources */,
+				39D0E7B31E2876B9000E1318 /* YJTest5ViewController.swift in Sources */,
+				393C65951E2CC3B3004DB424 /* YJNewsTypeCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39D0E77C1E286DFF000E1318 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39D0E7851E286DFF000E1318 /* ____Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39D0E7871E286DFF000E1318 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39D0E7901E286DFF000E1318 /* ____UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39D0E7821E286DFF000E1318 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39D0E76B1E286DFE000E1318 /* 今日头条 */;
+			targetProxy = 39D0E7811E286DFF000E1318 /* PBXContainerItemProxy */;
+		};
+		39D0E78D1E286DFF000E1318 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39D0E76B1E286DFE000E1318 /* 今日头条 */;
+			targetProxy = 39D0E78C1E286DFF000E1318 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		39D0E7731E286DFE000E1318 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39D0E7741E286DFE000E1318 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		39D0E7781E286DFF000E1318 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39D0E7791E286DFF000E1318 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39D0E7921E286DFF000E1318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		39D0E7931E286DFF000E1318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39D0E7951E286DFF000E1318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z6LNC4D4SJ;
+				INFOPLIST_FILE = "今日头条/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.99baozi.LiMuZhengXinWYJ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		39D0E7961E286DFF000E1318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z6LNC4D4SJ;
+				INFOPLIST_FILE = "今日头条/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.99baozi.LiMuZhengXinWYJ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		39D0E7981E286DFF000E1318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Z6LNC4D4SJ;
+				INFOPLIST_FILE = "今日头条Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.99baozi.LiMuZhengXinWYJ.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/今日头条.app/今日头条";
+			};
+			name = Debug;
+		};
+		39D0E7991E286DFF000E1318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Z6LNC4D4SJ;
+				INFOPLIST_FILE = "今日头条Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.99baozi.LiMuZhengXinWYJ.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/今日头条.app/今日头条";
+			};
+			name = Release;
+		};
+		39D0E79B1E286DFF000E1318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = Z6LNC4D4SJ;
+				INFOPLIST_FILE = "今日头条UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.99baozi.LiMuZhengXinWYJ.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "今日头条";
+			};
+			name = Debug;
+		};
+		39D0E79C1E286DFF000E1318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = Z6LNC4D4SJ;
+				INFOPLIST_FILE = "今日头条UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.99baozi.LiMuZhengXinWYJ.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "今日头条";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39D0E7671E286DFD000E1318 /* Build configuration list for PBXProject "今日头条" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39D0E7921E286DFF000E1318 /* Debug */,
+				39D0E7931E286DFF000E1318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39D0E7941E286DFF000E1318 /* Build configuration list for PBXNativeTarget "今日头条" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39D0E7951E286DFF000E1318 /* Debug */,
+				39D0E7961E286DFF000E1318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39D0E7971E286DFF000E1318 /* Build configuration list for PBXNativeTarget "今日头条Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39D0E7981E286DFF000E1318 /* Debug */,
+				39D0E7991E286DFF000E1318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39D0E79A1E286DFF000E1318 /* Build configuration list for PBXNativeTarget "今日头条UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39D0E79B1E286DFF000E1318 /* Debug */,
+				39D0E79C1E286DFF000E1318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39D0E7641E286DFD000E1318 /* Project object */;
+}

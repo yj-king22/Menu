@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="YJMoreItemsView" customModule="今日头条" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="379" height="558"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="NSs-RF-a3o">
+                    <rect key="frame" x="0.0" y="0.0" width="379" height="558"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Mr3-fP-9As">
+                        <size key="itemSize" width="80" height="30"/>
+                        <size key="headerReferenceSize" width="0.0" height="35"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="agg-Uu-Xe6"/>
+                        <outlet property="delegate" destination="-1" id="LbY-tR-uew"/>
+                    </connections>
+                </collectionView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2P8-Tr-BLN" userLabel="clearView">
+                    <rect key="frame" x="0.0" y="0.0" width="379" height="64"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rhr-4c-sPi" userLabel="alpaView">
+                            <rect key="frame" x="0.0" y="0.0" width="379" height="64"/>
+                            <color key="backgroundColor" red="0.95686274509803915" green="0.96078431372549022" blue="0.96470588235294119" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aKt-Lt-w8n">
+                            <rect key="frame" x="339" y="24" width="25" height="25"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="25" id="8rb-es-f7P"/>
+                                <constraint firstAttribute="height" constant="25" id="UZ0-VM-SND"/>
+                            </constraints>
+                            <state key="normal" title="X">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="backBtnClcik:" destination="iN0-l3-epB" eventType="touchUpInside" id="WJH-TY-uWw"/>
+                            </connections>
+                        </button>
+                        <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gvy-oL-pAe" userLabel="bottomLine">
+                            <rect key="frame" x="0.0" y="64" width="379" height="0.0"/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="0.5" id="IWK-d3-32U"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="Gvy-oL-pAe" secondAttribute="bottom" id="8ri-Do-JJp"/>
+                        <constraint firstItem="Gvy-oL-pAe" firstAttribute="leading" secondItem="2P8-Tr-BLN" secondAttribute="leading" id="IlU-6P-c6a"/>
+                        <constraint firstItem="Gvy-oL-pAe" firstAttribute="top" secondItem="aKt-Lt-w8n" secondAttribute="bottom" constant="15" id="Jns-PN-JE3"/>
+                        <constraint firstItem="rhr-4c-sPi" firstAttribute="leading" secondItem="2P8-Tr-BLN" secondAttribute="leading" id="LQJ-q3-Im1"/>
+                        <constraint firstAttribute="trailing" secondItem="rhr-4c-sPi" secondAttribute="trailing" id="M6m-fz-vZ1"/>
+                        <constraint firstAttribute="trailing" secondItem="Gvy-oL-pAe" secondAttribute="trailing" id="S1I-KE-aE2"/>
+                        <constraint firstAttribute="bottom" secondItem="rhr-4c-sPi" secondAttribute="bottom" id="U9M-CU-u8c"/>
+                        <constraint firstAttribute="height" constant="64" id="UwC-C1-zUi"/>
+                        <constraint firstAttribute="trailing" secondItem="aKt-Lt-w8n" secondAttribute="trailing" constant="15" id="eaK-yR-Ybm"/>
+                        <constraint firstItem="rhr-4c-sPi" firstAttribute="top" secondItem="2P8-Tr-BLN" secondAttribute="top" id="sgj-bV-DrG"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.95686274509803915" green="0.96078431372549022" blue="0.96470588235294119" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="2P8-Tr-BLN" secondAttribute="trailing" id="2OC-79-UwL"/>
+                <constraint firstItem="2P8-Tr-BLN" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="I5L-9x-xbS"/>
+                <constraint firstAttribute="trailing" secondItem="NSs-RF-a3o" secondAttribute="trailing" id="glT-ot-vu1"/>
+                <constraint firstAttribute="bottom" secondItem="NSs-RF-a3o" secondAttribute="bottom" id="hFa-2j-nSH"/>
+                <constraint firstItem="NSs-RF-a3o" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="xed-li-uxB"/>
+                <constraint firstItem="NSs-RF-a3o" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="yNN-CF-2Hq"/>
+                <constraint firstItem="2P8-Tr-BLN" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="zTw-wC-NzO"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="alphaView" destination="rhr-4c-sPi" id="gzT-06-gim"/>
+                <outlet property="backBtn" destination="aKt-Lt-w8n" id="sBL-vm-C1o"/>
+                <outlet property="bottomLine" destination="Gvy-oL-pAe" id="gaf-Jo-wAo"/>
+                <outlet property="collectionView" destination="NSs-RF-a3o" id="S15-Rw-Xmq"/>
+            </connections>
+            <point key="canvasLocation" x="28.5" y="27"/>
+        </view>
+    </objects>
+</document>
